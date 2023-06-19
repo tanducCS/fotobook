@@ -1,3 +1,22 @@
 .header{
     background-color: #3c5a9a;
 }
+
+
+#exampleModal .modal-body img{
+    width: 100%;
+}
+
+
+.item__images{
+    
+    max-height: 450px;
+    
+    overflow: hidden;
+}
+
+.item__images img{
+    width: 100%;
+
+}
+
