@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/feeds.css">
+    <link rel="stylesheet" href="../styles/feeds_album.css">
     <script src="https://kit.fontawesome.com/7ad299e119.js" crossorigin="anonymous"></script>
-    <title>Feeds</title>
+    <title>feeds_album</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -58,10 +58,10 @@
                 <!-- Button to choose photo or album -->
                 <div class="d-flex justify-content-center  mt-2"> 
                     <div class="category btn-group col-1 justify-content-center" role="group">
-                        <input type="radio" class="btn-check" name="btnradio" id="btnphoto" autocomplete="off" checked>
+                        <input type="radio" class="btn-check" name="btnradio" id="btnphoto" autocomplete="off" >
                         <label for="btnphoto" class="btn btn-outline-primary">PHOTO</label>
                         
-                        <input type="radio" class="btn-check" name="btnradio" id="btnalbum" autocomplete="off" >
+                        <input type="radio" class="btn-check" name="btnradio" id="btnalbum" autocomplete="off" checked>
                         <label for="btnalbum" class="btn btn-outline-primary">ALBUM</label>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                               <p class="card-text mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                               <div class="position-absolute bottom-0 mb-2" style="width: 90%;">
                                 <div class="d-flex justify-content-between align-items-center w-100" >
-                                  <i class="fa-solid fa-heart"></i>
+                                  <span class="heart1"><i class="fas fa-heart"></i></span>
                                   <p class="card-text"><small class="text-body-secondary">4:50 pm 01/04/2018</small></p>
                                  </div>
                               </div>
@@ -274,6 +274,6 @@
             
         </div>    
     </div>
-  <script src="../scripts/feeds.js"></script>
+  <script src="../scripts/feeds_album.js"></script>
 </body>
 </html>
